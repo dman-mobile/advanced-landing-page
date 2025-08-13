@@ -1,0 +1,34 @@
+.label {
+  min-width: 11rem;
+  max-width: max-content;
+  gap: .8rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  height: 3.4rem;
+  border-radius: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-size-label;
+  font-weight: 600;
+
+  svg{
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  &--popular {
+    color: $color-danger;
+    background-color: $color-danger-light;
+  }
+
+  &--new {
+    color: $color-info;
+    background-color: $color-info-light;
+  }
+
+  &--deals {
+    color: $color-primary-dark;
+    background-color: $color-primary-light;
+  }
+}

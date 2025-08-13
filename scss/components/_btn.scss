@@ -1,0 +1,92 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 100%;
+  max-height: 4.8rem;
+  padding: 1.2rem 2.4rem;
+  width: 100%;
+  max-width: max-content;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  &--round {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  &--green {
+    background: $color-primary;
+    border: 1px solid $color-primary;
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  &--dark-green {
+    background: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  &--light-green {
+    background: $color-primary-light;
+    border: 1px solid $color-primary;
+    color: $color-primary-dark;
+
+    svg {
+      fill: $color-primary;
+    }
+
+    &--borderless {
+      border-color: $color-primary-light;
+    }
+  }
+
+  &--transparent {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid $color-primary;
+    color: $color-primary;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  &--white {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem 1.5rem;
+    max-height: 34px;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  &--search {
+    font-family: inherit;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+  }
+}

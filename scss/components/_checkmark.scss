@@ -1,0 +1,64 @@
+.checkmark__container {
+  display: block;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 25px;
+  width: 25px;
+}
+
+.checkmark__container input {
+  border-radius: 4px;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid $color-primary;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.checkmark__container:hover input~.checkmark__icon {
+  background-color: $color-primary-light;
+  border-radius: 4px;
+}
+
+.checkmark__container input:checked~.checkmark__icon {
+  background-color: $color-primary;
+  border-radius: 4px;
+}
+
+.checkmark__icon:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkmark__container input:checked~.checkmark__icon:after {
+  display: block;
+}
+
+.checkmark__container .checkmark__icon:after {
+  top: 3px;
+  left: 7px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

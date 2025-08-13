@@ -1,0 +1,9 @@
+.consent {
+  display: flex;
+  gap: 8px;
+
+  &__text {
+    color: $color-grey-3;
+    max-width: 45ch;
+  }
+}
