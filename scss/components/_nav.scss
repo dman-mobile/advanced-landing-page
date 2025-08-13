@@ -1,0 +1,21 @@
+.nav {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  top: 0;
+  left: 0;
+  min-height: 720px;
+  padding: 4rem;
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
