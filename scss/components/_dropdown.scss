@@ -1,0 +1,61 @@
+.dropdown {
+  position: relative;
+  width: 496px;
+
+  &__select {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 28px;
+    border: 1px solid $color-grey-1;
+    max-width: 49.6rem;
+    height: 5.6rem;
+    width: 100%;
+    padding: 2.4rem 3.2rem;
+    font-family: inherit;
+    color: $color-grey-3;
+    background-color: #fff;
+    z-index: 10;
+    font-size: $font-size-label;
+    font-weight: 500;
+
+    svg {
+      transform: rotate(90deg);
+      fill: $color-grey-3;
+    }
+  }
+
+  &__content {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    border-radius: 2.8rem;
+    border: 1px solid $color-grey-1;
+    max-width: 49.6rem;
+    width: 100%;
+    font-family: inherit;
+    color: $color-black;
+    left: 0;
+    padding: .8rem;
+    padding-top: 6.4rem;
+    top: calc(-100% + 6.4rem - .8rem);
+  }
+
+  &__option {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1.6rem 2.4rem;
+    border-radius: 2.8rem;
+    font-weight: 500;
+
+    &:hover {
+      background-color: $color-primary-light;
+    }
+  }
+
+  &:hover &__content {
+    display: block;
+    z-index: 1;
+  }
+}

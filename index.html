@@ -4,12 +4,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preload" as="image" href="/assets/icons/icons.svg">
+  <title>Document</title>
 </head>
 
-<body>
+<body style="max-width: 1440px; margin: auto auto;"> // Temp styling, remove
+  <div class="">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <p class="subtitle">Subtitle</p>
+  </div>
+  <div class="grid-4-by-3">
+    <button class="btn btn--green">More Articles</button>
+    <button class="btn btn--dark-green">More Articles</button>
+    <button class="btn btn--transparent">More Articles</button>
+    <button class="btn btn--light-green">More Articles</button>
+    <button class="btn--round btn--green">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn--round btn--dark-green">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn--round btn--transparent">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn--round btn--light-green">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn btn--green">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+      More Articles
+    </button>
+    <button class="btn btn--dark-green">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+      More Articles
+    </button>
+    <button class="btn btn--transparent">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+      More Articles
+    </button>
+    <button class="btn btn--light-green btn-light-green--borderless">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+      More Articles
+    </button>
+    <button class="btn btn--green">More Articles
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn btn--dark-green">More Articles
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn btn--transparent">More Articles
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <button class="btn btn--light-green btn-light-green--borderless">More Articles
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+    <div class="label label--popular">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#icon-popular"></use>
+      </svg>
+      Popular
+    </div>
+    <div class="label label--new">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#icon-house"></use>
+      </svg>
 
+      New house
+    </div>
+    <div class="label label--deals">
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/assets/icons/icons.svg#icon-deals"></use>
+      </svg>
+
+      Best deals
+    </div>
+    <div></div>
+  </div>
+  <div class="grid-2-by-2">
+    <input type="text" placeholder="Your input here" class="input input-default">
+    <div>
+      <input type="email" placeholder="Your email here" class="input input__field">
+      <div class="input__error-label">Field error. Please fix it</div>
+    </div>
+  </div>
+  <div class="grid-2-by-2">
+    <div class="consent">
+      <label class="checkmark__container">
+        <input type="checkbox" name="consent">
+        <span class="checkmark__icon"></span>
+      </label>
+      <label class="checkmark__container">
+        <input type="checkbox" checked="checked" name="consent">
+        <span class="checkmark__icon"></span>
+      </label>
+      <p class="consent__text">I give consent to the processing of my personal data given in the contact form above
+        under the terms and conditions of Grid Dynamics Privacy Policy.</p>
+    </div>
+  </div>
+  <div class="grid-2-by-2">
+
+    <div class="dropdown">
+      <div class="dropdown__select">
+        <span>Select</span>
+        <span><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M1.13526 0.00180435C0.87047 0.00134945 0.613858 0.0825443 0.40997 0.231296C0.295217 0.315059 0.200361 0.417933 0.130833 0.534022C0.0613047 0.650112 0.0184714 0.777137 0.00478626 0.907824C-0.0088989 1.03851 0.00683311 1.17029 0.0510809 1.29562C0.0953286 1.42094 0.167222 1.53735 0.262645 1.63818L5.33967 6.98632L0.443969 12.3444C0.349833 12.4465 0.279534 12.5639 0.237114 12.69C0.194694 12.8161 0.180989 12.9482 0.196785 13.079C0.212582 13.2097 0.257569 13.3364 0.329162 13.4518C0.400755 13.5672 0.497541 13.669 0.613958 13.7513C0.731212 13.8421 0.868525 13.9107 1.01728 13.9526C1.16604 13.9945 1.32302 14.0088 1.47838 13.9948C1.63375 13.9807 1.78413 13.9385 1.9201 13.8709C2.05608 13.8032 2.1747 13.7116 2.26853 13.6016L7.7422 7.61492C7.90888 7.43638 8 7.21244 8 6.98133C8 6.75021 7.90888 6.52627 7.7422 6.34773L2.07587 0.361009C1.96218 0.240259 1.81777 0.144807 1.65434 0.0823965C1.49091 0.0199862 1.31308 -0.00762463 1.13526 0.00180435Z" />
+          </svg>
+        </span>
+      </div>
+      <div class="dropdown__content">
+        <p class="dropdown__option">HTML</p>
+        <p class="dropdown__option">CSS</p>
+        <p class="dropdown__option">JavaScript</p>
+        <p class="dropdown__option">React</p>
+      </div>
+    </div>
+    <textarea maxlength="500" placeholder="Textarea" name="" id=""
+      class="input input__field input__field--textarea"></textarea>
+  </div>
+  <div class="grid-2-by-2">
+    <div class="input input--complex">
+      <div class="input--complex__icon input--complex__icon--secondary">
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="assets/icons/icons.svg#icon-location"></use>
+        </svg>
+      </div>
+      <input placeholder="Search for the location you want!" class="input--complex__field" type="text" />
+      <button class="btn btn--green btn--search">Search
+        <svg width="24" height="24" aria-hidden="true">
+          <use href="/assets/icons/icons.svg#chevron-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="carrousel">
+    <div class="house-card">
+      <div class="house-card__image">
+        <img alt="" src="assets/images/27f13b275f6feccd6b58283a47a0088b887b85b5.jpg" srcset="" />
+        <div class="label label--popular"><svg fill="none" height="16" viewbox="0 0 16 16" width="16"
+            xmlns="http://www.w3.org/2000/svg">
+            <use href="assets/icons/icons.svg#icon-popular"></use>
+          </svg>
+          Popular
+        </div>
+      </div>
+      <div class="house-card__legend">
+        <h3 class="house-card__name">Roseland House</h3>
+        <p class="house-card__price">$35.000.000</p>
+      </div>
+      <div class="house-card__user">
+        <div class="house-card__user-icon">
+          <img alt="" src="assets/images/35de90fb12a790d479bee66f26626dba559056bd.jpg" />
+        </div>
+        <div class="house-card__user-text">
+          <p class="house-card__username">Diane Russell</p>
+          <p class="house-card__location">Manchester, Kentucky</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

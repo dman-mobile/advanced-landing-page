@@ -1,0 +1,102 @@
+.input {
+  border-radius: 2.8rem;
+  border: 1px solid $color-grey-1;
+  height: 5.6rem;
+  max-width: 49.6rem;
+  padding: 1.6rem 2.4rem;
+  font-family: inherit;
+
+  &:invalid:not(:focus) {
+    border-color: $color-danger;
+    position: relative;
+
+    +.input__error-label {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  &--complex {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-grey-1;
+    max-width: 49.6rem;
+    height: 5.6rem;
+    border-radius: 2.8rem;
+    background-color: #fff;
+
+    &__icon {
+      margin-left: 2.4rem;
+      margin-right: 1.6rem;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+
+    &__field {
+      border: none;
+      height: 100%;
+      width: 100%;
+      font-weight: 500;
+      font-family: inherit;
+      color: $color-black;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: $color-grey-2;
+        font-family: inherit;
+      }
+    }
+  }
+
+  &__field {
+    height: 100%;
+    width: 100%;
+
+    &--textarea {
+      min-height: 14.4rem;
+      resize: none;
+    }
+  }
+
+  &__error-label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    display: block;
+    opacity: 0;
+    transform: translateY(-4rem);
+    position: absolute;
+    transition: all .1s;
+    color: $color-danger
+  }
+}
+
+select {
+  border-radius: 2.8rem;
+  border: 1px solid $color-grey-1;
+  height: 5.6rem;
+  max-width: 49.6rem;
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  font-family: inherit;
+  color: $color-black;
+
+  option {
+    height: 4rem;
+    border: 1px solid $color-grey-3;
+
+    &:hover {
+      background-color: $color-primary-light;
+      border-radius: 8rem;
+      color: #fff;
+    }
+  }
+}

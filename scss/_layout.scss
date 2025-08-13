@@ -1,0 +1,21 @@
+// Auxiliary classes
+
+.grid-2-by-2 {
+  padding: 1rem;
+  gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-4-by-3 {
+  padding: 1rem;
+  gap: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}

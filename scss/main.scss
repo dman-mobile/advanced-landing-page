@@ -1,9 +1,9 @@
 // Partials
 @import 'variables';
-@import 'base';
 @import 'globals';
 @import 'mixins';
 @import 'layout';
+@import 'base';
 
 
 // Pages
@@ -20,3 +20,7 @@
 @import 'components/nav';
 @import 'components/subscribe';
 @import 'components/user-card';
+@import 'components/label';
+@import 'components/dropdown';
+@import 'components/checkmark';
+@import 'components/consent';
