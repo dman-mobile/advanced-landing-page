@@ -1,61 +1,71 @@
 .dropdown {
   position: relative;
-  width: 496px;
 
   &__select {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 28px;
-    border: 1px solid $color-grey-1;
-    max-width: 49.6rem;
-    height: 5.6rem;
-    width: 100%;
-    padding: 2.4rem 3.2rem;
-    font-family: inherit;
-    color: $color-grey-3;
-    background-color: #fff;
+    gap: 24px;
+    max-height: 34px;
     z-index: 10;
+    font-family: inherit;
     font-size: $font-size-label;
-    font-weight: 500;
+    font-weight: 600;
+    cursor: default;
 
     svg {
+      width: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       transform: rotate(90deg);
-      fill: $color-grey-3;
+      fill: $color-white;
     }
   }
 
   &__content {
-    background-color: #fff;
     display: none;
+    min-width: max-content;
     position: absolute;
-    border-radius: 2.8rem;
-    border: 1px solid $color-grey-1;
-    max-width: 49.6rem;
+    border-radius: 16px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     width: 100%;
     font-family: inherit;
-    color: $color-black;
     left: 0;
-    padding: .8rem;
-    padding-top: 6.4rem;
-    top: calc(-100% + 6.4rem - .8rem);
+    padding: 8px;
+    padding-top: 6px;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: $color-white;
   }
 
   &__option {
-    font-size: 1.4rem;
+    width: 100%;
+    max-height: 34px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 1.6rem 2.4rem;
-    border-radius: 2.8rem;
+    border-radius: 28px;
     font-weight: 500;
+    padding: 4px 8px;
+    cursor: pointer;
 
     &:hover {
-      background-color: $color-primary-light;
+      background-color: $color-primary;
     }
   }
 
   &:hover &__content {
-    display: block;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
     z-index: 1;
   }
 }
