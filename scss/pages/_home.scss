@@ -48,7 +48,7 @@
 
   &__white-border {
     position: absolute;
-    top: 46vh;
+    top: 295px;
     right: 27.5%;
   }
 
@@ -60,7 +60,7 @@
     width: 50%;
     max-height: 100%;
     border-bottom-left-radius: 80px;
-    object-fit: fill;
+    background-size: cover;
   }
 
   &__bg-overlay {
