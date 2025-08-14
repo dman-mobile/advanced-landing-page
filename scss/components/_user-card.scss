@@ -1,0 +1,15 @@
+.user-card{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+  &__title{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  &__subtitle{
+    font-size: $font-size-label;
+    color: $color-grey-2;
+  }
+}
