@@ -1,0 +1,11 @@
+.section-tag{
+  position: relative;
+  display: flex;
+  gap: 8px;
+  color: $color-secondary;
+  svg{
+    margin-top: 5px;
+  }
+  left: -40px;
+  margin-bottom: 6px;
+}

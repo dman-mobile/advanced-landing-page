@@ -2,6 +2,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   <!-- Deals tag -->
 
+  <symbol id="yellow-line" viewBox="0 0 32 1">
+    <rect width="32" height="1" fill="#F59E0B" />
+  </symbol>
   <symbol id="white-border" viewBox="0 0 120 5">
     <path d="M2 2.5H44.5" stroke="#D1FAE5" stroke-width="4" stroke-linecap="round"
       stroke-linejoin="round" />
