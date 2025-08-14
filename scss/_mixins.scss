@@ -6,3 +6,6 @@
     gap: $gap;
   }
 }
+@mixin shadow-ig-post {
+  box-shadow: 0px 11px 48px 0px #3333330F;
+}
