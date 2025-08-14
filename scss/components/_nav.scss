@@ -1,17 +1,17 @@
 .nav {
-  background: #000;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   top: 0;
   left: 0;
-  min-height: 720px;
-  padding: 4rem;
+  height: 126px;
+  position: relative;
+  z-index: 99;
   &__links {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.4rem;
+    gap: 24px;
     list-style: none;
   }
 
