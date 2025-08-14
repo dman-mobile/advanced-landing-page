@@ -28,6 +28,30 @@
     background-size: cover;
   }
 
+  &__red-border {
+    position: absolute;
+    top: 18vh;;
+    left: 56%;
+  }
+
+  &__yellow-border {
+    position: absolute;
+    top: 25vh;
+    right: 14%;
+  }
+
+  &__blue-border {
+    position: absolute;
+    top: 51vh;
+    right: 13.5%;
+  }
+
+  &__white-border {
+    position: absolute;
+    top: 46vh;
+    right: 27.5%;
+  }
+
   &__house-bg {
     position: absolute;
     z-index: -1;
@@ -36,7 +60,7 @@
     width: 50%;
     max-height: 100%;
     border-bottom-left-radius: 80px;
-    background-size: cover;
+    object-fit: fill;
   }
 
   &__bg-overlay {
