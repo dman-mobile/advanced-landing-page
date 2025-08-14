@@ -5,10 +5,6 @@
 @import 'layout';
 @import 'base';
 
-
-// Pages
-@import 'pages/home';
-
 // Components
 @import 'components/article-card';
 @import 'components/btn';
@@ -25,4 +21,6 @@
 @import 'components/checkmark';
 @import 'components/consent';
 @import 'components/user-avatar';
+
+// Sections
 @import 'sections/hero-section';
