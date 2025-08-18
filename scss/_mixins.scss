@@ -2,10 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @if $gap != 0 {
+
+  @if $gap !=0 {
     gap: $gap;
   }
 }
+
 @mixin shadow-ig-post {
-  box-shadow: 0px 11px 48px 0px #3333330F;
+  box-shadow: 0px 11px 48px 0px $shadow-ig;
+}
+
+@mixin shadow-testimonials-card {
+  box-shadow: 0px 8px 32px 0px $shadow-soft;
 }
