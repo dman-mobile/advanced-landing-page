@@ -47,7 +47,7 @@
     bottom: -76px;
     border-radius: 16px;
     padding: 32px;
-    box-shadow: 0px 8px 32px 0px #0C153717;
+    @include shadow-testimonials-card;
     background: $color-white;
     z-index: 11;
     max-width: 612px;
