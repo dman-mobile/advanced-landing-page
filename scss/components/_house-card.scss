@@ -1,0 +1,72 @@
+.house-card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  &__image {
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+    position: relative;
+    width: 23rem;
+    height: 24rem;
+
+    .label {
+      bottom: 1rem;
+      left: 1rem;
+      position: absolute;
+      z-index: 4;
+    }
+  }
+
+  &__legend {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: $color-grey-3;
+  }
+
+  &__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__user-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__username {
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  &__location {
+    font-size: 0.875rem;
+    color: $color-grey-2;
+  }
+
+  &__user-icon {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+
+    img {
+      width: 100%;
+    }
+  }
+}
