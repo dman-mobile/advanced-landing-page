@@ -1,0 +1,122 @@
+[
+  {
+    "type": "house",
+    "name": "Maplewood Residence",
+    "price": 28500000,
+    "user": "Laura Simmons",
+    "location": "Boulder, Colorado",
+    "avatar": "assets/users/avatar-6.jpg",
+    "image": "assets/images/featured-house-1.jpg",
+    "label": "popular"
+  },
+  {
+    "type": "house",
+    "name": "Oakridge Villa",
+    "price": 32000000,
+    "user": "James Hart",
+    "location": "Nashville, Tennessee",
+    "avatar": "assets/users/avatar-3.jpg",
+    "image": "assets/images/featured-house-2.jpg",
+    "label": "new"
+  },
+  {
+    "type": "house",
+    "name": "Silverlake House",
+    "price": 24700000,
+    "user": "Angela Brown",
+    "location": "Madison, Wisconsin",
+    "avatar": "assets/users/avatar-20.jpg",
+    "image": "assets/images/featured-house-3.jpg",
+    "label": "deals"
+  },
+  {
+    "type": "house",
+    "name": "Evergreen Manor",
+    "price": 37900000,
+    "user": "Mark Jensen",
+    "location": "Denver, Colorado",
+    "avatar": "assets/users/avatar-17.jpg",
+    "image": "assets/images/featured-house-4.jpg",
+    "label": "popular"
+  },
+  {
+    "type": "apartment",
+    "name": "Skyline Apartments",
+    "price": 15200000,
+    "user": "Daniel Flores",
+    "location": "Austin, Texas",
+    "avatar": "assets/users/avatar-3.jpg",
+    "image": "assets/images/featured-house-12.jpg",
+    "label": "deals"
+  },
+  {
+    "type": "apartment",
+    "name": "Harborview Tower",
+    "price": 18700000,
+    "user": "Emily Clark",
+    "location": "Seattle, Washington",
+    "avatar": "assets/users/avatar-20.jpg",
+    "image": "assets/images/featured-house-11.jpg",
+    "label": "popular"
+  },
+  {
+    "type": "apartment",
+    "name": "Central Park Loft",
+    "price": 21500000,
+    "user": "Olivia Scott",
+    "location": "New York, New York",
+    "avatar": "assets/users/avatars-12.jpg",
+    "image": "assets/images/featured-house-10.jpg",
+    "label": "new"
+  },
+  {
+    "type": "apartment",
+    "name": "Riverside Flats",
+    "price": 16800000,
+    "user": "Michael Rivera",
+    "location": "Chicago, Illinois",
+    "avatar": "assets/users/avatar-9.jpg",
+    "image": "assets/images/featured-house-9.jpg",
+    "label": "popular"
+  },
+  {
+    "type": "village",
+    "name": "Sunnydale Cottage",
+    "price": 12300000,
+    "user": "Kevin Turner",
+    "location": "Portland, Oregon",
+    "avatar": "assets/users/avatar-17.jpg",
+    "image": "assets/images/featured-house-5.jpg",
+    "label": "new"
+  },
+  {
+    "type": "village",
+    "name": "Willowbrook Estate",
+    "price": 40000000,
+    "user": "Sophia Martinez",
+    "location": "Charleston, South Carolina",
+    "avatar": "assets/users/avatar-6.jpg",
+    "image": "assets/images/featured-house-6.jpg",
+    "label": "deals"
+  },
+  {
+    "type": "village",
+    "name": "Pinecrest Retreat",
+    "price": 29600000,
+    "user": "Rachel Nguyen",
+    "location": "Boise, Idaho",
+    "avatar": "assets/users/avatars-12.jpg",
+    "image": "assets/images/featured-house-7.jpg",
+    "label": "popular"
+  },
+  {
+    "type": "village",
+    "name": "Cedarhill Hamlet",
+    "price": 26400000,
+    "user": "Jonathan Lee",
+    "location": "Reno, Nevada",
+    "avatar": "assets/users/avatar-20.jpg",
+    "image": "assets/images/featured-house-9.jpg",
+    "label": "new"
+  }
+]
