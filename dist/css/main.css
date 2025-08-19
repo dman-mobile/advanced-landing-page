@@ -95,7 +95,7 @@ body {
   font-weight: 600;
   line-height: 24px;
 }
-.btn--round {
+.btn-round {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,6 +157,69 @@ body {
   font-family: inherit;
   font-weight: 600;
   max-width: 150px;
+}
+
+.house-card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.house-card__image {
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-position: center;
+  object-fit: cover;
+  position: relative;
+  width: 23rem;
+  height: 24rem;
+}
+.house-card__image .label {
+  bottom: 1rem;
+  left: 1rem;
+  position: absolute;
+  z-index: 4;
+}
+.house-card__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.house-card__price {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #626687;
+}
+.house-card__user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.house-card__user-text {
+  display: flex;
+  flex-direction: column;
+}
+.house-card__username {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.house-card__location {
+  font-size: 0.875rem;
+  color: #888B97;
+}
+.house-card__user-icon {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+}
+.house-card__user-icon img {
+  width: 100%;
 }
 
 .input {
@@ -307,13 +370,12 @@ select option:hover {
 }
 
 .label {
-  min-width: 11rem;
+  min-width: 110px;
   max-width: max-content;
-  gap: 0.8rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
-  height: 3.4rem;
-  border-radius: 3.2rem;
+  gap: 8px;
+  padding: 8px 16px;
+  height: 34px;
+  border-radius: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,8 +383,8 @@ select option:hover {
   font-weight: 600;
 }
 .label svg {
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 16px;
+  height: 16px;
 }
 .label--popular {
   color: #EF4444;
@@ -699,8 +761,62 @@ select option:hover {
   width: 82.75px;
 }
 
+.featured-house {
+  margin-top: 168px;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featured-house .section-tag {
+  align-self: start;
+  margin-left: 124px;
+}
+.featured-house__carousel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+  width: 1192px;
+  margin-top: 36px;
+  margin-left: 124px;
+  overflow: visible;
+}
+.featured-house__carousel .house-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+.featured-house__nav {
+  width: 100%;
+  padding: 0 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  margin-bottom: 36px;
+}
+.featured-house__nav h2 {
+  flex: 1;
+}
+.featured-house__nav__filters {
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+}
+.featured-house__nav__pagination {
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
 .tour-section {
-  padding-top: 168px;
+  padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
