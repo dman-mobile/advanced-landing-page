@@ -763,32 +763,48 @@ select option:hover {
 
 .featured-house {
   margin-top: 168px;
-  height: 655px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 124px;
+  padding-right: 124px;
 }
 .featured-house .section-tag {
   align-self: start;
-  margin-left: 124px;
+}
+.featured-house__carousel-wrapper {
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+}
+.featured-house__carousel-wrapper::-webkit-scrollbar {
+  display: none;
 }
 .featured-house__carousel {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 32px;
-  width: 1192px;
   margin-top: 36px;
-  margin-left: 124px;
-  overflow: visible;
+  margin-bottom: 32px;
 }
 .featured-house__carousel .house-card {
   flex: 0 0 auto;
   scroll-snap-align: start;
 }
-.featured-house__nav {
+.featured-house__carousel img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+.featured-house__nav,
+.featured-house .section-tag {
+  position: sticky;
+  left: 124px;
   width: 100%;
-  padding: 0 126px;
+}
+.featured-house__nav {
   display: flex;
   justify-content: center;
   align-items: center;

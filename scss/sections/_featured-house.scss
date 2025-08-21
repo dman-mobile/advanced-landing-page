@@ -1,13 +1,25 @@
 .featured-house {
   margin-top: 168px;
-  height: 655px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 124px;
+  padding-right: 124px;
 
   .section-tag {
     align-self: start;
-    margin-left: 124px;
+  }
+
+  &__carousel-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &__carousel {
@@ -15,20 +27,28 @@
     justify-content: start;
     align-items: center;
     gap: 32px;
-    width: 1192px;
     margin-top: 36px;
-    margin-left: 124px;
-    overflow: visible;
+    margin-bottom: 32px;
 
     .house-card {
       flex: 0 0 auto;
       scroll-snap-align: start;
     }
+
+    img {
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+  }
+
+  &__nav,
+  .section-tag {
+    position: sticky;
+    left: 124px;
+    width: 100%;
   }
 
   &__nav {
-    width: 100%;
-    padding: 0 126px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,7 @@
+import initTestimonialsSlider from './ui/testimonials-slider.min.js';
+import initHouseCarousel from './ui/house-carousel.min.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  initTestimonialsSlider();
+  initHouseCarousel();
+});
