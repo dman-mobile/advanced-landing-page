@@ -186,11 +186,10 @@
 
   </symbol>
   <symbol id="icon-cross" viewBox="0 0 24 24">
-    <path d="M4.92896 4.92892L19.0711 19.0711" stroke="#1B1C57" stroke-width="2"
+    <path d="M4.92896 4.92892L19.0711 19.0711" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M19.071 4.92896L4.92891 19.0711" stroke="#1B1C57" stroke-width="2"
+    <path d="M19.071 4.92896L4.92891 19.0711" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" />
-
   </symbol>
   <symbol id="icon-check" viewBox="0 0 24 24">
     <path d="M2.00003 12L8.03482 18L22 5" stroke="#1B1C57" stroke-width="2" stroke-linecap="round" />
