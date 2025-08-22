@@ -159,6 +159,7 @@ body {
   max-width: 150px;
 }
 
+
 .cookies-banner {
   position: fixed;
   bottom: 24px;
@@ -188,6 +189,67 @@ body {
   background: transparent;
   border: none;
   color: #1B1C57;
+=======
+.footer {
+  display: flex;
+  height: 297px;
+  margin: 0 124px;
+  margin-top: 120px;
+  position: relative;
+}
+.footer__info-container {
+  flex: 2;
+}
+.footer__info-container__about-text {
+  margin-top: 16px;
+  max-width: 376px;
+  color: #626687;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer__info-container__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  max-width: max-content;
+  margin-top: 24px;
+}
+.footer__info-container__socials a {
+  color: inherit;
+}
+.footer__links-container {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  gap: 32px;
+  flex: 3;
+}
+.footer__links-container h4 {
+  margin-bottom: 24px;
+}
+.footer__links-container ul {
+  min-width: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  list-style-type: none;
+}
+.footer__links-container a {
+  text-decoration: none;
+  margin-top: 16px;
+  max-width: 376px;
+  color: #888B97;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer__blur-bg {
+  position: absolute;
+  right: -124px;
+  bottom: 0;
+  z-index: -1;
 }
 
 .house-card {
