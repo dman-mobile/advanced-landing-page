@@ -1,0 +1,19 @@
+.form-section {
+  margin: 0 124px;
+  min-height: 592px;
+  @include flex-center(32px);
+
+  &__info-container {
+    @include shadow-testimonials-card;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 2
+  }
+
+  &__form-container {
+    @include shadow-testimonials-card;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 3;
+  }
+}
