@@ -291,6 +291,10 @@ body {
   max-width: 496px;
   padding: 16px 24px;
   font-family: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1B1C57;
+  font-size: 14px;
 }
 .input:invalid:not(:focus) {
   border-color: #EF4444;
@@ -344,13 +348,17 @@ body {
   color: #888B97;
   font-family: inherit;
 }
-.input__field {
-  height: 100%;
-  width: 100%;
-}
-.input__field--textarea {
-  min-height: 144px;
+.input--textarea {
   resize: none;
+  min-height: 144px;
+}
+.input--textarea__char-count {
+  position: absolute;
+  z-index: 5;
+  right: 24px;
+  bottom: 16px;
+  font-size: 12px;
+  color: #888B97;
 }
 .input__error-label {
   font-size: 12px;
@@ -365,24 +373,48 @@ body {
   color: #EF4444;
 }
 
-select {
-  border-radius: 28px;
-  border: 1px solid #E0E3EB;
-  height: 56px;
-  max-width: 496px;
+.dropdown--field {
+  position: relative;
+  z-index: 20;
+}
+.dropdown--field__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  z-index: 20;
+  background-color: #FFFFFF;
+  border: none;
+  height: 100%;
   width: 100%;
-  padding: 16px 24px;
+  font-weight: 500;
   font-family: inherit;
   color: #1B1C57;
 }
-select option {
-  height: 40px;
-  border: 1px solid #626687;
+.dropdown--field__content {
+  position: absolute;
+  top: -38px;
+  left: -24px;
+  padding-top: 56px;
+  background: #fff;
+  border: 1px solid #E0E3EB;
+  border-radius: 28px;
+  border-top: none;
+  display: none;
+  flex-direction: column;
+  z-index: 10;
 }
-select option:hover {
-  background-color: #D1FAE5;
-  border-radius: 80px;
+.dropdown--field.open .dropdown--field__content {
+  display: flex;
+}
+.dropdown--field__option {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.dropdown--field__option:hover {
+  background-color: #10B981;
   color: #fff;
+  border-radius: 28px;
 }
 
 .nav {
@@ -594,11 +626,14 @@ select option:hover {
 
 .consent {
   display: flex;
+  justify-content: center;
   gap: 8px;
+  height: 72px;
+  margin-bottom: 12px;
 }
 .consent__text {
   color: #626687;
-  max-width: 45ch;
+  max-width: 495px;
 }
 
 .user-avatar {
@@ -1060,6 +1095,7 @@ select option:hover {
 .form-section {
   margin: 0 124px;
   min-height: 592px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1076,4 +1112,31 @@ select option:hover {
   padding: 40px;
   border-radius: 8px;
   flex: 3;
+  max-width: 682px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.form-section__form-container__field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-section__form-container__field--textarea {
+  align-items: start;
+}
+.form-section__form-container__field div {
+  width: 496px;
+  position: relative;
+}
+.form-section__form-container__field div .input {
+  width: 100%;
+}
+.form-section__form-container .form-section__form-container__label {
+  font-weight: 500;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 89px;
+  height: 56px;
 }
