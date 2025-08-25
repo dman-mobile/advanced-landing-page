@@ -1,0 +1,29 @@
+.cookies-banner {
+  position: fixed;
+  bottom: 24px;
+  width: 456px;
+  color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  background-color: $color-primary-light;
+  padding: 16px 40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+
+  div {
+    @include flex-center(12px);
+  }
+
+  button {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    color: $color-black;
+  }
+}
