@@ -159,6 +159,37 @@ body {
   max-width: 150px;
 }
 
+
+.cookies-banner {
+  position: fixed;
+  bottom: 24px;
+  width: 456px;
+  color: #10B981;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  background-color: #D1FAE5;
+  padding: 16px 40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+}
+.cookies-banner div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.cookies-banner button {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  color: #1B1C57;
+=======
 .footer {
   display: flex;
   height: 297px;
