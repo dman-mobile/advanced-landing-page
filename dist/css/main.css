@@ -825,6 +825,15 @@ select option:hover {
   opacity: 1;
 }
 
+.divider {
+  width: 40px;
+  height: 2px;
+  background: #1B1C57;
+}
+.divider--green {
+  background: #10B981;
+}
+
 .hero-section {
   width: 100%;
   display: flex;
@@ -1184,4 +1193,44 @@ select option:hover {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin: 0 124px;
+  margin-top: 120px;
+  min-height: 592px;
+}
+.form-section__info-container {
+  width: 100%;
+  max-width: 478px;
+  box-shadow: 0px 8px 32px 0px rgba(12, 21, 55, 0.0901960784);
+  padding: 40px;
+  border-radius: 8px;
+  flex: 2;
+  text-align: center;
+}
+.form-section__info-container__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  max-width: 398px;
+  color: #626687;
+  line-height: 24px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+  margin-top: 28px;
+}
+.form-section__form-container {
+  box-shadow: 0px 8px 32px 0px rgba(12, 21, 55, 0.0901960784);
+  padding: 40px;
+  border-radius: 8px;
+  flex: 3;
 }
