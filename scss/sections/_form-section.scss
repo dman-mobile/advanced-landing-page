@@ -1,13 +1,33 @@
 .form-section {
-  margin: 0 124px;
-  min-height: 592px;
   @include flex-center(32px);
+  margin: 0 124px;
+  margin-top: 120px;
+  min-height: 592px;
 
   &__info-container {
+    width: 100%;
+    max-width: 478px;
     @include shadow-testimonials-card;
     padding: 40px;
     border-radius: 8px;
-    flex: 2
+    flex: 2;
+    text-align: center;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      max-width: 398px;
+      color: $color-grey-3;
+      line-height: 24px;
+      font-size: $font-size-body;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 56px;
+      margin-top: 28px;
+    }
   }
 
   &__form-container {
