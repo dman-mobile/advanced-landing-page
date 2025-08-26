@@ -3,6 +3,7 @@
   margin: 0 124px;
   margin-top: 120px;
   min-height: 592px;
+  height: 100%;
 
   &__info-container {
     width: 100%;
@@ -35,5 +36,37 @@
     padding: 40px;
     border-radius: 8px;
     flex: 3;
+    max-width: 682px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    &__field {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--textarea {
+        align-items: start;
+      }
+
+      div {
+        width: 496px;
+        position: relative;
+
+        .input {
+          width: 100%;
+        }
+      }
+    }
+
+    .form-section__form-container__label {
+      font-weight: 500;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 89px;
+      height: 56px;
+    }
   }
 }

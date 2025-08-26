@@ -1,4 +1,5 @@
 <section class="form-section">
+
   <div class="form-section__info-container">
     <h3>Would you like to join?</h3>
     <div class="form-section__info-container__text">
@@ -20,5 +21,67 @@
   </div>
   <div class="form-section__form-container">
 
+    <div class="form-section__form-container__field">
+      <label class="form-section__form-container__label" for="first-name">Name</label>
+      <div>
+        <input required minlength="2" pattern="[A-Za-zÀ-ÿ\s]+" placeholder="Your name" class="input input__field"
+          type="text" name="first-name" id="first-name">
+        <span class="input__error-label">Please enter a valid name</span>
+      </div>
+    </div>
+
+    <div class="form-section__form-container__field">
+      <label class="form-section__form-container__label"  for="last-name">Surname</label>
+      <div>
+        <input required minlength="2" pattern="[A-Za-zÀ-ÿ\s]+" placeholder="Your surname" class="input" type="text"
+          name="last-name" id="last-name">
+        <span class="input__error-label">Please enter a valid surname</span>
+      </div>
+    </div>
+
+    <div class="form-section__form-container__field">
+      <label class="form-section__form-container__label"  for="education">Education</label>
+      <div class="input dropdown--field" id="education">
+        <input type="hidden" name="education" required>
+
+        <div class="dropdown--field__select" tabindex="0">
+          <span class="dropdown--field__selected">Select one</span>
+          <span class="dropdown--field__icon">
+            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#chevron-down"></use>
+            </svg>
+          </span>
+        </div>
+
+        <div class="dropdown--field__content">
+          <p class="dropdown--field__option" data-value="highschool">Highschool</p>
+          <p class="dropdown--field__option" data-value="university">University</p>
+          <p class="dropdown--field__option" data-value="postgrade">Post-grade</p>
+        </div>
+      </div>
+      <span class="input__error-label">Please select an option</span>
+    </div>
+
+    <div class="form-section__form-container__field form-section__form-container__field--textarea">
+      <label class="form-section__form-container__label" for="message">Message</label>
+      <div>
+        <textarea required minlength="10" maxlength="500" cols="50" rows="10" placeholder="Write your message..."
+          class="input input__field input--textarea" name="message" id="message"></textarea>
+        <p class="input--textarea__char-count"><span id="charCount">0</span> / 500</p>
+        <span class="input__error-label">Message must be at least 10 characters</span>
+      </div>
+    </div>
+
+    <div class="consent">
+      <label class="checkmark__container">
+        <input type="checkbox" checked="checked" name="consent">
+        <span class="checkmark__icon"></span>
+      </label>
+      <p class="consent__text">
+        I give consent to the processing of my personal data given in the contact form above
+        under the terms and conditions of Grid Dynamics Privacy Policy.
+      </p>
+    </div>
+  </div>
   </div>
 </section>
