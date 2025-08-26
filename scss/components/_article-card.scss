@@ -1,7 +1,17 @@
 .article-card {
   @include flex-center(32px);
+  transition: all .1s ease-in-out;
+  border-radius: 16px;
+  outline: 2px solid transparent;
+  &:hover {
+    @include shadow-ig-post;
+    outline: 2px solid $color-grey-2;
+    outline-offset: 8px;
+    cursor: pointer;
+  }
 
   &__image {
+    @include flex-center;
     img {
       border-radius: 16px;
       height: 148px;
