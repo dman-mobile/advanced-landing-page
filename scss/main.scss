@@ -1,13 +1,9 @@
 // Partials
 @import 'variables';
-@import 'base';
 @import 'globals';
 @import 'mixins';
 @import 'layout';
-
-
-// Pages
-@import 'pages/home';
+@import 'base';
 
 // Components
 @import 'components/article-card';
@@ -20,3 +16,16 @@
 @import 'components/nav';
 @import 'components/subscribe';
 @import 'components/user-card';
+@import 'components/label';
+@import 'components/dropdown';
+@import 'components/checkmark';
+@import 'components/consent';
+@import 'components/user-avatar';
+@import 'components/section-tag';
+@import 'components/carousel';
+
+// Sections
+@import 'sections/hero-section';
+@import 'sections/featured-house';
+@import 'sections/tour';
+@import 'sections/testimonials';

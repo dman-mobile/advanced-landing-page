@@ -1,0 +1,57 @@
+.featured-house {
+  margin-top: 168px;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .section-tag {
+    align-self: start;
+    margin-left: 124px;
+  }
+
+  &__carousel {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+    width: 1192px;
+    margin-top: 36px;
+    margin-left: 124px;
+    overflow: visible;
+
+    .house-card {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+    }
+  }
+
+  &__nav {
+    width: 100%;
+    padding: 0 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-white;
+    margin-bottom: 36px;
+
+    h2 {
+      flex: 1;
+    }
+
+    &__filters {
+      flex: 1;
+      list-style-type: none;
+      @include flex-center(27px);
+    }
+
+    &__pagination {
+      margin-left: auto;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 16px;
+      flex: 1;
+    }
+  }
+}

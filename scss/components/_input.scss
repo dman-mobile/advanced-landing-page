@@ -1,0 +1,116 @@
+.input {
+  border-radius: 28px;
+  border: 1px solid $color-grey-1;
+  height: 56px;
+  max-width: 496px;
+  padding: 16px 24px;
+  font-family: inherit;
+
+
+
+  &:invalid:not(:focus) {
+    border-color: $color-danger;
+    position: relative;
+
+    +.input__error-label {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  &--complex {
+    padding: 4px;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-grey-1;
+    max-width: 496px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #fff;
+    transition: border-color 100ms ease;
+
+    &__icon {
+      @include flex-center;
+      margin-right: 16px;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+
+    &:focus-within {
+      border-color: $color-grey-2;
+    }
+
+    &__field {
+      border: none;
+      height: 100%;
+      width: 100%;
+      font-weight: 500;
+      font-family: inherit;
+      color: $color-black;
+
+
+      &:focus {
+        outline: none;
+
+        &::placeholder {
+          opacity: 0;
+        }
+      }
+
+      &::placeholder {
+        transition: all .2s;
+        color: $color-grey-2;
+        font-family: inherit;
+      }
+    }
+  }
+
+  &__field {
+    height: 100%;
+    width: 100%;
+
+    &--textarea {
+      min-height: 144px;
+      resize: none;
+    }
+  }
+
+  &__error-label {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 8px;
+    display: block;
+    opacity: 0;
+    transform: translateY(-40px);
+    position: absolute;
+    transition: all .1s;
+    color: $color-danger
+  }
+}
+
+select {
+  border-radius: 28px;
+  border: 1px solid $color-grey-1;
+  height: 56px;
+  max-width: 496px;
+  width: 100%;
+  padding: 16px 24px;
+  font-family: inherit;
+  color: $color-black;
+
+  option {
+    height: 40px;
+    border: 1px solid $color-grey-3;
+
+    &:hover {
+      background-color: $color-primary-light;
+      border-radius: 80px;
+      color: #fff;
+    }
+  }
+}

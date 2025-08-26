@@ -1,0 +1,87 @@
+.btn {
+  @include flex-center(8px);
+  height: 100%;
+  height: 48px;
+  padding: 12px 24px;
+  width: 100%;
+  min-width: 106px;
+  max-width: max-content;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+
+  &-round {
+    @include flex-center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+  }
+
+  &--green {
+    background: $color-primary;
+    border: 1px solid $color-primary;
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  &--dark-green {
+    background: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  &--light-green {
+    background: $color-primary-light;
+    border: 1px solid $color-primary;
+    color: $color-primary-dark;
+
+    svg {
+      fill: $color-primary;
+    }
+
+    &--borderless {
+      border-color: $color-primary-light;
+    }
+  }
+
+  &--transparent {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid $color-primary;
+    color: $color-primary;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  &--white {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: $color-white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    max-height: 34px;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+
+  &--search {
+    @include flex-center(24px);
+    font-family: inherit;
+    font-weight: 600;
+    max-width: 150px;
+  }
+}

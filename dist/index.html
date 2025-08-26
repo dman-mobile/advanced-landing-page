@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preload" as="image" href="/assets/icons/icons.svg">
+  <title>Hounter - Find The Place To Live Your Dreams</title>
+</head>
+
+
+<body>
+  <header class="section">
+  <nav class="nav">
+    <div class="nav__logo"><a href="#">
+        <svg fill="none" height="36" viewBox="0 0 117 36" width="117" xmlns="http://www.w3.org/2000/svg">
+          <use href="assets/icons/icons.svg#hounter-logo"></use>
+        </svg>
+      </a>
+    </div>
+    <ul class="nav__links">
+      <li class="nav__item"><a class="nav__link btn btn--white" href="#">About Us</a></li>
+      <li class="nav__item"><a class="nav__link btn btn--white" href="#">Article</a></li>
+      <div class="dropdown btn btn--white">
+        <div class="dropdown__select">
+          <span>Property</span>
+          <span>
+            <svg fill="none" height="16" width="8" viewBox="0 0 8 16" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#chevron-down"></use>
+            </svg>
+          </span>
+        </div>
+        <div class="dropdown__content">
+          <p class="dropdown__option">House</p>
+          <p class="dropdown__option">Apartment</p>
+          <p class="dropdown__option">Village</p>
+        </div>
+      </div>
+      <li class="nav__item"><a class="nav__link btn btn--light-green" href="#">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-section">
+    <img class="hero-section__blur-bg" src="assets/images/Blur-BG.png" alt="">
+    <div class="hero-section__main">
+      <h1 class="hero-section__title">Find The Place To Live <span class="hero-section__highlight">Your Dreams</span> Easily Here</h1>
+      <p class="hero-section__subtitle">Everything you need about finding your place to live will be here, where it will be easier for you</p>
+      <div class="input--complex">
+        <div class="input--complex__icon input--complex__icon--secondary">
+          <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <use href="assets/icons/icons.svg#icon-location"></use>
+          </svg>
+        </div>
+        <input placeholder="Search for the location you want!" class="input--complex__field" type="text" />
+        <button class="btn btn--green btn--search">Search
+          <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <use href="assets/icons/icons.svg#chevron-right"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="hero-section__partnership">Our Partnership</p>
+      <div class="hero-section__partners">
+        <img src="assets/logos/traveloka.png" class="hero-section__partner">
+        <img src="assets/logos/tiket.png" class="hero-section__partner">
+        <img src="assets/logos/airbnb.png" class="hero-section__partner">
+        <img src="assets/logos/tripadvisor.png" class="hero-section__partner">
+      </div>
+    </div>
+    <div class="hero-section__bg-container">
+      <img class="hero-section__house-bg" src="assets/images/hero.png" alt="">
+      <div class="hero-section__bg-overlay"></div>
+      <img class="hero-section__house-bg" src="assets/images/overlay.png" alt="">
+    </div>
+  </div>
+</header>
+
+  <div class="hero-section__carrousel">
+  <div class="hero-section__carrousel-card">
+    <div class="hero-section__carrousel-card__icons">
+      <div class="user-avatar">
+        <img src="assets/users/avatar-20.jpg" alt="" class="user-avatar__photo">
+      </div>
+      <div class="user-avatar">
+        <img src="assets/users/avatar-17.jpg" alt="" class="user-avatar__photo">
+      </div>
+      <div class="user-avatar">
+        <img src="assets/users/avatar-6.jpg" alt="" class="user-avatar__photo">
+      </div>
+    </div>
+    <div class="hero-section__carrousel-card__text">
+      <p class="hero-section__carrousel-card__title">1K+ People</p>
+      <p class="hero-section__carrousel-card__subtitle">Successfully Getting Home</p>
+    </div>
+  </div>
+  <div class="hero-section__carrousel-card">
+    <div class="hero-section__carrousel-card__icons">
+      <img src="assets/images/hero-carrousel-2.png" alt="">
+    </div>
+    <div class="hero-section__carrousel-card__text">
+      <p class="hero-section__carrousel-card__title">56 Houses</p>
+      <p class="hero-section__carrousel-card__subtitle">Sold Monthly</p>
+    </div>
+  </div>
+  <div class="hero-section__carrousel-card">
+    <div class="hero-section__carrousel-card__icons">
+      <div class="user-avatar">
+        <img src="assets/users/avatar-10.jpg" alt="" class="user-avatar__photo">
+      </div>
+    </div>
+    <div class="hero-section__carrousel-card__text">
+      <p class="hero-section__carrousel-card__title">4K+</p>
+      <p class="hero-section__carrousel-card__subtitle">People Looking For New Homes</p>
+    </div>
+  </div>
+</div>
+  <section class="featured-house">
+  <div class="section-tag">
+    <svg fill="none" height="1" width="32" viewBox="0 0 32 1" xmlns="http://www.w3.org/2000/svg">
+      <use href="assets/icons/icons.svg#yellow-line"></use>
+    </svg>
+    <p class="section-tag__text">Our recommendation</p>
+  </div>
+  <div class="featured-house__nav">
+  <h2>Featured House</h2>
+  <div class="featured-house__nav__filters">
+    <button class="btn btn--transparent" href="#">
+      <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <use href="assets/icons/icons.svg#icon-house"></use>
+      </svg>
+      House
+    </button>
+    <button class="btn btn--transparent" href="#">
+      <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <use href="assets/icons/icons.svg#icon-village"></use>
+      </svg>
+      Village
+    </button>
+    <button class="btn btn--transparent" href="#">
+      <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <use href="assets/icons/icons.svg#icon-apartment"></use>
+      </svg>
+      Apartment
+    </button>
+  </div>
+  <div class="featured-house__nav__pagination">
+    <button class="btn-round btn--transparent" href="#">
+      <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <use href="assets/icons/icons.svg#chevron-left"></use>
+      </svg>
+    </button>
+    <button class="btn-round btn--green" href="#">
+      <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <use href="assets/icons/icons.svg#chevron-right"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+  <div class="featured-house__carousel-wrapper">
+  <div class="featured-house__carousel" id="houseCarousel"></div>
+</div>
+
+</section>
+  <section class="section">
+  <div class="tour-section">
+    <div class="tour-section__info">
+      <div class="section-tag">
+        <svg fill="none" height="1" width="32" viewBox="0 0 32 1" xmlns="http://www.w3.org/2000/svg">
+          <use href="assets/icons/icons.svg#yellow-line"></use>
+        </svg>
+        <p class="section-tag__text">Ready to Sell!</p>
+      </div>
+      <h2>
+        Let&apos;s tour and see our house!
+      </h2>
+      <p class="tour-section__subtitle">
+        Houses recommended by our partners that have been curated to become the home of your dreams!
+      </p>
+      <div class="tour-section__details-container">
+        <div class="tour-section__details-container__title">
+          House Detail
+        </div>
+        <div class="tour-section__details-container__grid">
+          <div class="tour-section__details-container__grid__item">
+            <svg fill="none" height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#icon-bed"></use>
+            </svg>
+            <p>4 Bedrooms</p>
+          </div>
+          <div class="tour-section__details-container__grid__item">
+            <svg fill="none" height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#icon-shower"></use>
+            </svg>
+            <p>2 Bathrooms</p>
+          </div>
+          <div class="tour-section__details-container__grid__item">
+            <svg fill="none" height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#icon-carport"></use>
+            </svg>
+            <p>1 Carport</p>
+          </div>
+          <div class="tour-section__details-container__grid__item">
+            <svg fill="none" height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <use href="assets/icons/icons.svg#icon-stairs"></use>
+            </svg>
+            <p>2 Floors</p>
+          </div>
+        </div>
+      </div>
+      <div class="tour-section__contact-container">
+        <div class="user-card user-card--large">
+          <div class="user-avatar">
+            <img src="assets/users/avatars-12.jpg" alt="" class="user-avatar__photo">
+          </div>
+          <div>
+            <p class="user-card__title">
+              Diane Russel
+            </p>
+            <p class="user-card__subtitle">
+              Manchester, Kentucky
+            </p>
+          </div>
+        </div>
+        <button class="btn btn--green">
+          <svg fill="none" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <use href="assets/icons/icons.svg#icon-phone"></use>
+          </svg>
+          Contact Now
+        </button>
+      </div>
+    </div>
+    <div class="tour-section__images">
+      <img class="tour-section__image tour-section__image-big" src="assets/images/tour-1.png" alt="">
+      <div class="tour-section__overlay">
+        <img src="assets/icons/Play.png" alt="">
+      </div>
+      <div class="tour-section__images__bottom-container">
+        <img class="tour-section__image tour-section__image-medium" src="assets/images/tour-2.jpg" alt="">
+        <img class="tour-section__image tour-section__image-small" src="assets/images/tour-3.jpg" alt="">
+        <img class="tour-section__image tour-section__image-small" src="assets/images/tour-4.jpg" alt="">
+      </div>
+    </div>
+    <div class="tour-section__bg-blur">
+      <img class="tour-section__bg-blur__image" src="assets/images/Tour-Blur-BG.png" alt="" srcset="">
+    </div>
+  </div>
+</section>
+  <section class="testimonials">
+  <div class="section-tag section-tag--centered">
+    <svg fill="none" height="1" width="32" viewBox="0 0 32 1" xmlns="http://www.w3.org/2000/svg">
+      <use href="assets/icons/icons.svg#yellow-line"></use>
+    </svg>
+    <p class="section-tag__text">See our review</p>
+  </div>
+  <h2 class="testimonials__title">What Our User Say About Us</h2>
+
+  <div class="testimonials-slider ">
+    <div class="testimonials-slider__slide slide--1">
+      <div class="testimonials__carrousel__slide">
+        <img src="assets/images/testimonials-3.jpg" alt="">
+        <div class="testimonials__card">
+          <h4 class="testimonials__card__title">My house sold out fast!</h4>
+          <p class="testimonials__card__subtitle">I was finally able to sell my house quickly through Hounter by
+            immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my
+            house. Awesome!</p>
+          <div class="testimonials__card__user-review">
+            <div class="user-card user-card--small">
+              <div class="user-avatar user-avatar--small">
+                <img src="assets/users/avatar-6.jpg" alt="" class="user-avatar__photo">
+              </div>
+              <div>
+                <p class="user-card__title">
+                  Diane Russell
+                </p>
+                <p class="user-card__subtitle">
+                  Manchester, Kentucky
+                </p>
+              </div>
+            </div>
+            <div class="testimonials__card__rating">
+              <svg fill="none" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <use href="assets/icons/icons.svg#icon-star"></use>
+              </svg>
+              <h4>4.3</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-slider__slide slide--2">
+      <div class="testimonials__carrousel__slide">
+        <img src="assets/images/testimonials-1.jpg" alt="">
+        <div class="testimonials__card">
+          <h4 class="testimonials__card__title">Best! I got the house I wanted through Hounter</h4>
+          <p class="testimonials__card__subtitle">Through this website I can get a house with the type and
+            specifications
+            I want very easily, without a complicated process to be able to find information on the house we want.</p>
+          <div class="testimonials__card__user-review">
+            <div class="user-card user-card--small">
+              <div class="user-avatar user-avatar--small">
+                <img src="assets/users/avatar-6.jpg" alt="" class="user-avatar__photo">
+              </div>
+              <div>
+                <p class="user-card__title">
+                  Jenn Wilson
+                </p>
+                <p class="user-card__subtitle">
+                  Manager Director
+                </p>
+              </div>
+            </div>
+            <div class="testimonials__card__rating">
+              <svg fill="none" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <use href="assets/icons/icons.svg#icon-star"></use>
+              </svg>
+              <h4>4.6</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-slider__slide" data="slide--3">
+      <div class="testimonials__carrousel__slide">
+        <img src="assets/images/testimonials-2.jpg" alt="">
+        <div class="testimonials__card">
+          <h4 class="testimonials__card__title">Through the Hounter, I can get a house for my self</h4>
+          <p class="testimonials__card__subtitle">By looking for information about what kind of house we want, we
+            managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask
+            about the details, very helpful!</p>
+          <div class="testimonials__card__user-review">
+            <div class="user-card user-card--small">
+              <div class="user-avatar user-avatar--small">
+                <img src="assets/users/avatar-3.jpg" alt="" class="user-avatar__photo">
+              </div>
+              <div>
+                <p class="user-card__title">
+                  Ronald Richards
+                </p>
+                <p class="user-card__subtitle">
+                  Head of Marketing
+                </p>
+              </div>
+            </div>
+            <div class="testimonials__card__rating">
+              <svg fill="none" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <use href="assets/icons/icons.svg#icon-star"></use>
+              </svg>
+              <h4>4.6</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-slider__dots"></div>
+  </div>
+</section>
+  
+  
+  
+  
+  <script src="js/min/ui.min.js"></script>
+</body>
+
+</html>
