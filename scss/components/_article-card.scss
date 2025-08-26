@@ -3,6 +3,7 @@
   transition: all .1s ease-in-out;
   border-radius: 16px;
   outline: 2px solid transparent;
+  user-select: none;
   &:hover {
     @include shadow-ig-post;
     outline: 2px solid $color-grey-2;
@@ -83,7 +84,7 @@
     margin-bottom: 12px;
   }
 
-  &__text {
+  &__description {
     color: $color-grey-3;
   }
 
