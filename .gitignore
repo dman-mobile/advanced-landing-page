@@ -4,10 +4,7 @@
 /js/min/*.js
 /js/min/*.js.map
 
-/dist/css/*.css
-/dist/css/*.css.map
-
-/dist/js/*.js
-/dist/js/*.js.map
-
 /node_modules
+
+/dist/*
+!/dist/assets
