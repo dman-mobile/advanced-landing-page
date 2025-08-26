@@ -40,6 +40,10 @@
       &--secondary {
         color: $color-secondary;
       }
+
+      &--info{
+        color: $color-info;
+      }
     }
 
     &:focus-within {

@@ -2,10 +2,12 @@ import initTestimonialsSlider from './ui/testimonials-slider.min.js';
 import initHouseCarousel from './ui/house-carousel.min.js';
 import initTextareaMessage from './ui/textarea-counter.min.js';
 import initEducationPicker from './ui/education-picker.min.js';
+import initCookieBanner from './ui/cookies.min.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   initTestimonialsSlider();
   initHouseCarousel();
   initTextareaMessage();
   initEducationPicker();
+  initCookieBanner();
 });
