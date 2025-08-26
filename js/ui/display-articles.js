@@ -3,8 +3,17 @@ export default function initDisplayArticles(){
   const articlesList = document.querySelector('.articles__list');
 
   findMoreBtn.addEventListener('click', async () => {
-    let response = await fetch('data/articles.json');
-    let data = await response.json();
+    try {
+      const response = await fetch('data/articles.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      listArticles = data.articles;
+    } catch (error) {
+      console.error("Could not fetch articles:", error);
+      return;
+    }
 
     let randomArticles = data.articles
       .sort(() => 0.5 - Math.random())
@@ -14,7 +23,7 @@ export default function initDisplayArticles(){
 
     randomArticles.forEach(article => {
       articlesList.innerHTML += `
-        <article class="article-card">
+        <article class="article-card" data-article-id="${article.id}">
           <div class="article-card__image">
             <img src="${article.image}" alt="${article.title}">
           </div>
