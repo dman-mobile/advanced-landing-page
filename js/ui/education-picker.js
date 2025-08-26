@@ -4,13 +4,10 @@ export default function initEducationPicker() {
   const content = dropdown.querySelector(".dropdown--field__content");
   const options = dropdown.querySelectorAll(".dropdown--field__option");
   const selectedSpan = select.querySelector("span:first-child");
-  console.log(options);
-  // toggle open/close
   select.addEventListener("click", () => {
     dropdown.classList.toggle("open");
   });
   
-  // pick option
   options.forEach(option => {
     option.addEventListener("click", () => {
       selectedSpan.textContent = option.textContent;
@@ -18,7 +15,6 @@ export default function initEducationPicker() {
     });
   });
   
-  // close when clicking outside
   document.addEventListener("click", (e) => {
     if (!dropdown.contains(e.target)) {
       dropdown.classList.remove("open");
