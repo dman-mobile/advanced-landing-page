@@ -1,0 +1,47 @@
+.find-more {
+  position: relative;
+  margin-top: 109px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    max-width: 580px;
+  }
+
+  .articles {
+    &__container {
+      margin: 0 124px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      margin-top: 47px;
+      gap: 32px;
+    }
+
+    &__list {
+      max-width: 580px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 32px;
+    }
+
+    &__featured {
+      max-width: 580px;
+      display: flex;
+      align-items: start;
+    }
+  }
+
+  &__bg-image {
+    position: absolute;
+    top: -20%;
+    left: 0;
+  }
+}
