@@ -1,0 +1,347 @@
+{
+  "articles": [
+    {
+      "id": 2,
+      "title": "10 modern interior design tips for small apartments",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Cameron Williamson",
+      "authorImage": "assets/users/avatar-2.jpg",
+      "readTime": "6 min read",
+      "date": "02 May 2025"
+    },
+    {
+      "id": 3,
+      "title": "Why natural light is the secret weapon of good design",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Esther Howard",
+      "authorImage": "assets/users/avatar-3.jpg",
+      "readTime": "5 min read",
+      "date": "10 May 2025"
+    },
+    {
+      "id": 4,
+      "title": "Minimalist living: how to decorate with less",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Jacob Jones",
+      "authorImage": "assets/users/avatar-1.jpg",
+      "readTime": "7 min read",
+      "date": "15 May 2025"
+    },
+    {
+      "id": 5,
+      "title": "Choosing the right color palette for your home",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Theresa Webb",
+      "authorImage": "assets/users/avatar-6.jpg",
+      "readTime": "3 min read",
+      "date": "21 May 2025"
+    },
+    {
+      "id": 6,
+      "title": "Smart home technology trends in 2025",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Darrell Steward",
+      "authorImage": "assets/users/avatar-9.jpg",
+      "readTime": "8 min read",
+      "date": "29 May 2025"
+    },
+    {
+      "id": 7,
+      "title": "How to maximize storage in a small kitchen",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Kristin Watson",
+      "authorImage": "assets/users/avatar-10.jpg",
+      "readTime": "4 min read",
+      "date": "05 Jun 2025"
+    },
+    {
+      "id": 8,
+      "title": "Outdoor spaces: tips for creating a cozy patio",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Guy Hawkins",
+      "authorImage": "assets/users/avatar-11.jpg",
+      "readTime": "5 min read",
+      "date": "12 Jun 2025"
+    },
+    {
+      "id": 9,
+      "title": "The future of sustainable architecture",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Courtney Henry",
+      "authorImage": "assets/users/avatars-12.jpg",
+      "readTime": "9 min read",
+      "date": "20 Jun 2025"
+    },
+    {
+      "id": 10,
+      "title": "How to decorate your living room on a budget",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Albert Flores",
+      "authorImage": "assets/users/avatar-14.jpg",
+      "readTime": "6 min read",
+      "date": "28 Jun 2025"
+    },
+
+    {
+      "id": 11,
+      "title": "Top 5 tips for a productive home office",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Dianne Russell",
+      "authorImage": "assets/users/avatar-6.jpg",
+      "readTime": "5 min read",
+      "date": "03 Jul 2025"
+    },
+    {
+      "id": 12,
+      "title": "Small bathroom design ideas that make a big impact",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Jacob Jones",
+      "authorImage": "assets/users/avatar-1.jpg",
+      "readTime": "4 min read",
+      "date": "08 Jul 2025"
+    },
+    {
+      "id": 13,
+      "title": "Creative storage hacks for tiny bedrooms",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Cameron Williamson",
+      "authorImage": "assets/users/avatar-2.jpg",
+      "readTime": "6 min read",
+      "date": "14 Jul 2025"
+    },
+    {
+      "id": 14,
+      "title": "How to create a cozy reading corner",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Courtney Henry",
+      "authorImage": "assets/users/avatars-12.jpg",
+      "readTime": "3 min read",
+      "date": "20 Jul 2025"
+    },
+    {
+      "id": 15,
+      "title": "Best flooring options for modern homes",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Albert Flores",
+      "authorImage": "assets/users/avatar-14.jpg",
+      "readTime": "7 min read",
+      "date": "25 Jul 2025"
+    },
+    {
+      "id": 16,
+      "title": "How to make your kitchen more eco-friendly",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Esther Howard",
+      "authorImage": "assets/users/avatar-3.jpg",
+      "readTime": "5 min read",
+      "date": "29 Jul 2025"
+    },
+    {
+      "id": 17,
+      "title": "Designing outdoor lighting for ambiance",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Guy Hawkins",
+      "authorImage": "assets/users/avatar-11.jpg",
+      "readTime": "6 min read",
+      "date": "04 Aug 2025"
+    },
+    {
+      "id": 18,
+      "title": "Affordable DIY wall art projects",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Kristin Watson",
+      "authorImage": "assets/users/avatar-10.jpg",
+      "readTime": "4 min read",
+      "date": "09 Aug 2025"
+    },
+    {
+      "id": 19,
+      "title": "The benefits of indoor plants in your home",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Darrell Steward",
+      "authorImage": "assets/users/avatar-9.jpg",
+      "readTime": "8 min read",
+      "date": "13 Aug 2025"
+    },
+    {
+      "id": 20,
+      "title": "Smart lighting ideas for every room",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Theresa Webb",
+      "authorImage": "assets/users/avatar-6.jpg",
+      "readTime": "5 min read",
+      "date": "18 Aug 2025"
+    },
+    {
+      "id": 21,
+      "title": "Simple tricks to make a small room look bigger",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Esther Howard",
+      "authorImage": "assets/users/avatar-3.jpg",
+      "readTime": "6 min read",
+      "date": "23 Aug 2025"
+    },
+    {
+      "id": 22,
+      "title": "The ultimate checklist for moving into a new house",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Jacob Jones",
+      "authorImage": "assets/users/avatar-1.jpg",
+      "readTime": "9 min read",
+      "date": "28 Aug 2025"
+    },
+    {
+      "id": 23,
+      "title": "How to choose the perfect sofa",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Cameron Williamson",
+      "authorImage": "assets/users/avatar-2.jpg",
+      "readTime": "7 min read",
+      "date": "02 Sep 2025"
+    },
+    {
+      "id": 24,
+      "title": "Budget-friendly backyard makeover ideas",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Courtney Henry",
+      "authorImage": "assets/users/avatars-12.jpg",
+      "readTime": "4 min read",
+      "date": "07 Sep 2025"
+    },
+    {
+      "id": 25,
+      "title": "How to pick the right curtains for your space",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Albert Flores",
+      "authorImage": "assets/users/avatar-14.jpg",
+      "readTime": "5 min read",
+      "date": "12 Sep 2025"
+    },
+    {
+      "id": 26,
+      "title": "The psychology of colors in home design",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Theresa Webb",
+      "authorImage": "assets/users/avatar-6.jpg",
+      "readTime": "8 min read",
+      "date": "18 Sep 2025"
+    },
+    {
+      "id": 27,
+      "title": "Design trends to watch in 2026",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Darrell Steward",
+      "authorImage": "assets/users/avatar-9.jpg",
+      "readTime": "7 min read",
+      "date": "23 Sep 2025"
+    },
+    {
+      "id": 28,
+      "title": "Creating a welcoming entryway",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Kristin Watson",
+      "authorImage": "assets/users/avatar-10.jpg",
+      "readTime": "4 min read",
+      "date": "27 Sep 2025"
+    },
+    {
+      "id": 29,
+      "title": "Open shelving: pros and cons",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Esther Howard",
+      "authorImage": "assets/users/avatar-3.jpg",
+      "readTime": "6 min read",
+      "date": "02 Oct 2025"
+    },
+    {
+      "id": 30,
+      "title": "How to organize a clutter-free kitchen",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Jacob Jones",
+      "authorImage": "assets/users/avatar-1.jpg",
+      "readTime": "5 min read",
+      "date": "06 Oct 2025"
+    },
+    {
+      "id": 31,
+      "title": "Tips for creating a pet-friendly home",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Guy Hawkins",
+      "authorImage": "assets/users/avatar-11.jpg",
+      "readTime": "7 min read",
+      "date": "11 Oct 2025"
+    },
+    {
+      "id": 32,
+      "title": "Decorating with vintage furniture pieces",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Cameron Williamson",
+      "authorImage": "assets/users/avatar-2.jpg",
+      "readTime": "5 min read",
+      "date": "16 Oct 2025"
+    },
+    {
+      "id": 33,
+      "title": "Best practices for a healthy home environment",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Albert Flores",
+      "authorImage": "assets/users/avatar-14.jpg",
+      "readTime": "8 min read",
+      "date": "21 Oct 2025"
+    },
+    {
+      "id": 34,
+      "title": "How to choose the right lighting fixtures",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Courtney Henry",
+      "authorImage": "assets/users/avatars-12.jpg",
+      "readTime": "6 min read",
+      "date": "26 Oct 2025"
+    },
+    {
+      "id": 35,
+      "title": "How to combine modern and rustic styles",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Theresa Webb",
+      "authorImage": "assets/users/avatar-6.jpg",
+      "readTime": "7 min read",
+      "date": "31 Oct 2025"
+    },
+    {
+      "id": 36,
+      "title": "Transforming your garage into a living space",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Darrell Steward",
+      "authorImage": "assets/users/avatar-9.jpg",
+      "readTime": "9 min read",
+      "date": "05 Nov 2025"
+    },
+    {
+      "id": 37,
+      "title": "Simple upgrades that add value to your home",
+      "image": "assets/images/find-more-3.jpg",
+      "author": "Esther Howard",
+      "authorImage": "assets/users/avatar-3.jpg",
+      "readTime": "5 min read",
+      "date": "10 Nov 2025"
+    },
+    {
+      "id": 38,
+      "title": "Why open floor plans are still popular",
+      "image": "assets/images/find-more-1.jpg",
+      "author": "Jacob Jones",
+      "authorImage": "assets/users/avatar-1.jpg",
+      "readTime": "6 min read",
+      "date": "15 Nov 2025"
+    },
+    {
+      "id": 39,
+      "title": "The role of textiles in interior design",
+      "image": "assets/images/find-more-2.jpg",
+      "author": "Kristin Watson",
+      "authorImage": "assets/users/avatar-10.jpg",
+      "readTime": "4 min read",
+      "date": "20 Nov 2025"
+    }
+  ]
+}

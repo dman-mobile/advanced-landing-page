@@ -1,9 +1,12 @@
 .consent {
   display: flex;
+  justify-content: center;
   gap: 8px;
+  height: 72px;
+  margin-bottom: 12px;
 
   &__text {
     color: $color-grey-3;
-    max-width: 45ch;
+    max-width: 495px;
   }
 }

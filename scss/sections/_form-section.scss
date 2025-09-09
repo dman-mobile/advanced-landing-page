@@ -1,0 +1,72 @@
+.form-section {
+  @include flex-center(32px);
+  margin: 0 124px;
+  margin-top: 120px;
+  min-height: 592px;
+  height: 100%;
+
+  &__info-container {
+    width: 100%;
+    max-width: 478px;
+    @include shadow-testimonials-card;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 2;
+    text-align: center;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      max-width: 398px;
+      color: $color-grey-3;
+      line-height: 24px;
+      font-size: $font-size-body;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 56px;
+      margin-top: 28px;
+    }
+  }
+
+  &__form-container {
+    @include shadow-testimonials-card;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 3;
+    max-width: 682px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    &__field {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--textarea {
+        align-items: start;
+      }
+
+      div {
+        width: 496px;
+        position: relative;
+
+        .input {
+          width: 100%;
+        }
+      }
+    }
+
+    .form-section__form-container__label {
+      font-weight: 500;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 89px;
+      height: 56px;
+    }
+  }
+}

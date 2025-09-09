@@ -1,0 +1,64 @@
+.footer {
+  display: flex;
+  height: 297px;
+  margin: 0 124px;
+  margin-top: 120px;
+  position: relative;
+
+  &__info-container {
+    flex: 2;
+
+    &__about-text {
+      margin-top: 16px;
+      max-width: 376px;
+      color: $color-grey-3;
+      font-size: $font-size-label;
+      line-height: 24px;
+    }
+    &__socials{
+      @include flex-center(28px);
+      max-width: max-content;
+      margin-top: 24px;
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  &__links-container {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 32px;
+    flex: 3;
+    
+    & h4 {
+      margin-bottom: 24px;
+    }
+    
+    & ul {
+      min-width: 172px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 16px;
+      list-style-type: none;
+    }
+
+    & a {
+      text-decoration: none;
+      margin-top: 16px;
+      max-width: 376px;
+      color: $color-grey-2;
+      font-size: $font-size-label;
+      line-height: 24px;
+    }
+  }
+  &__blur-bg{
+    position: absolute;
+    right: -124px;
+    bottom: 0;
+    z-index: -1;
+  }
+}
